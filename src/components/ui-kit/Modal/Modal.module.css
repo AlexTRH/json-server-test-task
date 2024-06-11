@@ -1,0 +1,28 @@
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000004D;
+}
+
+.visible {
+    display: flex;
+}
+
+.content {
+    border-radius: 8px;
+    background-color: white;
+    width: 536px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        max-width: 400px;
+        margin: 0 15px;
+    }
+}

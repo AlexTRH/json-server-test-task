@@ -1,0 +1,22 @@
+.main {
+    height: 100%;
+    padding: 48px 0;
+    background-color: var(--color-semi-light);
+}
+
+.container {
+    width: 80%;
+    padding: 0 16px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
